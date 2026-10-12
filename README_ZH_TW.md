@@ -1,27 +1,19 @@
-# Zalith Launcher 2
-![Downloads](https://img.shields.io/github/downloads/ZalithLauncher/ZalithLauncher2/total)
-[![Sponsor](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors)](https://afdian.com/a/MovTery)
+# Nerv Launcher
+![Downloads](https://img.shields.io/github/downloads/NervLauncher/NervLauncher/total)
+[![Sponsor](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors)](https://afdian.com/a/April)
 
 [English](README_EN_US.md) | [简体中文](README.md)
 
 
 > [!IMPORTANT]
-> 該專案與 [ZalithLauncher](https://github.com/ZalithLauncher/ZalithLauncher) 屬於兩個完全不同的專案  
+> 本專案為原 Zalith Launcher 2 專案的重新品牌化版本。
 
-**Zalith Launcher 2** 是一個全新設計、面向 **Android 裝置** 的 [Minecraft: Java Edition](https://www.minecraft.net/) 啟動器。專案使用 [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher/tree/v3_openjdk/app_pojavlauncher/src/main/jni) 作為啟動核心，採用 **Jetpack Compose** 與 **Material Design 3** 構建現代化 UI 體驗。  
-我們目前正在搭建自己的官方網站 [zalithlauncher.cn](https://zalithlauncher.cn)  
-此外，我們已注意到有第三方使用「Zalith Launcher」名稱搭建了一個看似官方的網站。請注意：**該網站並非我們創建**，其透過冒用名義並植入廣告牟利。我們對此類行為**不參與、不認可、不信任**。  
-請務必提高警覺，**謹防個人隱私資訊洩露**！
-
-
+**Nerv Launcher** 是一個全新設計、面向 **Android 裝置** 的 [Minecraft: Java Edition](https://www.minecraft.net/) 啟動器。專案使用 [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher/tree/v3_openjdk/app_pojavlauncher/src/main/jni) 作為啟動核心，採用 **Jetpack Compose** 與 **Material Design 3** 構建現代化 UI 體驗。
 
 ## 🌐 語言與翻譯支援
 
-我們正在使用 Weblate 平台翻譯 Zalith Launcher 2，歡迎您前往我們的 [Weblate 專案](https://hosted.weblate.org/projects/zalithlauncher2) 參與翻譯！  
-感謝每一位語言貢獻者的支持，讓 Zalith Launcher 2 更加多語化、更加國際化！
-
-
-
+我們正在使用 Weblate 平台翻譯 Nerv Launcher，歡迎您前往我們的 [Weblate 專案](https://hosted.weblate.org/projects/nervlauncher) 參與翻譯！
+感謝每一位語言貢獻者的支持，讓 Nerv Launcher 更加多語化、更加國際化！
 
 
 ## 📦 構建方式（開發者）
@@ -39,10 +31,9 @@
 ### 構建步驟
 
 ```bash
-git clone git@github.com:ZalithLauncher/ZalithLauncher2.git
+git clone git@github.com:NervLauncher/NervLauncher.git
 # 使用 Android Studio 開啟專案並進行構建
 ```
-
 
 
 
@@ -52,15 +43,15 @@ git clone git@github.com:ZalithLauncher/ZalithLauncher2.git
 
 ### 附加條款（依據 GPLv3 開源授權條款第七條）
 
-1. 當你分發本程式的修改版本時，必須以合理方式修改該程式的名稱或版本號，以區別於原始版本。（依據 [GPLv3, 7(c)](https://github.com/ZalithLauncher/ZalithLauncher2/blob/969827b/LICENSE#L372-L374)）
-    - 修改版本 **不得在名稱中包含原程式名稱「ZalithLauncher」或其縮寫「ZL」，亦不得使用與官方名稱相近、可能造成混淆的名稱**。
+1. 當你分發本程式的修改版本時，必須以合理方式修改該程式的名稱或版本號，以區別於原始版本。（依據 [GPLv3, 7(c)](https://www.gnu.org/licenses/gpl-3.0.html#sec7)）
+    - 修改版本 **不得在名稱中包含原程式名稱「NervLauncher」或其縮寫「NVL」，亦不得使用與官方名稱相近、可能造成混淆的名稱**。
     - 所有修改版本 **必須在程式啟動畫面或主介面中以明顯方式標示其為「非官方修改版」**。
-    - 程式的應用名稱可於 [gradle.properties](./ZalithLauncher/gradle.properties) 中進行修改。
+    - 程式的應用名稱可於 [gradle.properties](./NervLauncher/gradle.properties) 中進行修改。
 
-2. 你不得移除本程式所顯示的版權聲明。（依據 [GPLv3, 7(b)](https://github.com/ZalithLauncher/ZalithLauncher2/blob/969827b/LICENSE#L368-L370)）
+2. 你不得移除本程式所顯示的版權聲明。（依據 [GPLv3, 7(b)](https://www.gnu.org/licenses/gpl-3.0.html#sec7)）
 
 ## 引用開源專案
-  
+
 本軟體使用以下開源函式庫:
 
 | Library                               | Copyright                                                                                                     | License              | Official Link                                                                     |
@@ -73,7 +64,7 @@ git clone git@github.com:ZalithLauncher/ZalithLauncher2.git
 | Apache Commons Compress               | -                                                                                                             | Apache 2.0           | [链接↗](https://commons.apache.org/proper/commons-compress)                        |
 | Apache Commons IO                     | -                                                                                                             | Apache 2.0           | [链接↗](https://commons.apache.org/proper/commons-io)                              |
 | ByteHook                              | Copyright © 2020-2024 ByteDance, Inc.                                                                         | MIT License          | [链接↗](https://github.com/bytedance/bhook)                                        |
-| BuildKeys                             | Copyright © 2026 MovTery                                                                                      | Aoache 2.0           | [链接↗](https://github.com/MovTery/BuildKeys)                                      |
+| BuildKeys                             | Copyright © 2026 April                                                                                        | Apache 2.0           | [链接↗](https://github.com/April/BuildKeys)                                        |
 | Coil Compose                          | Copyright © 2025 Coil Contributors                                                                            | Apache 2.0           | [链接↗](https://github.com/coil-kt/coil)                                           |
 | Coil Gifs                             | Copyright © 2025 Coil Contributors                                                                            | Apache 2.0           | [链接↗](https://github.com/coil-kt/coil)                                           |
 | Coil SVG                              | Copyright © 2025 Coil Contributors                                                                            | Apache 2.0           | [链接↗](https://github.com/coil-kt/coil)                                           |
