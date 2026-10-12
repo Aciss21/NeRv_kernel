@@ -63,7 +63,7 @@ class EventViewModel : ViewModel() {
             data object RefreshSize : Game
             /** 用户按下系统返回键 */
             data object OnBack : Game
-            /** [com.movtery.zalithlauncher.game.launch.handler.AbstractHandler.onResume] */
+            /** [com.nerv.launcher.game.launch.handler.AbstractHandler.onResume] */
             data object OnResume: Game
         }
         sealed interface Terracotta : Event {

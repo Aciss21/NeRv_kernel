@@ -25,7 +25,7 @@ object FestivalPalette {
     data class Rain(val streak: Int, val splash: Int)
     data class Snow(val flake: Int)
     data class Firework(
-        /** 爆炸光点色彩，槽位数与 [com.movtery.zalithlauncher.ui.theme.festivals.simulations.FireworksSimulator.BURST_COLOR_COUNT] 对应 */
+        /** 爆炸光点色彩，槽位数与 [com.nerv.launcher.ui.theme.festivals.simulations.FireworksSimulator.BURST_COLOR_COUNT] 对应 */
         val bursts: List<Int>,
         /** 爆炸瞬间闪光 */
         val flash: Int,

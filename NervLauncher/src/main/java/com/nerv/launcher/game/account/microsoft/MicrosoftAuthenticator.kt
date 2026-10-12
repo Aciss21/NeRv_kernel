@@ -456,6 +456,6 @@ private suspend fun <T> withRetry(
     initialDelay: Long = 1000,
     maxDelay: Long = 10_000,
     block: suspend () -> T
-): T = com.movtery.zalithlauncher.utils.network.withRetry(
+): T = com.nerv.launcher.utils.network.withRetry(
     "MicrosoftAuthenticator", maxRetries, initialDelay, maxDelay, block
 )

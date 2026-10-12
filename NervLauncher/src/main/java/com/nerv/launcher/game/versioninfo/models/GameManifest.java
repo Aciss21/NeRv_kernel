@@ -18,7 +18,7 @@
 
 package com.nerv.launcher.game.versioninfo.models;
 
-import static com.movtery.zalithlauncher.path.UrlManagerKt.URL_MINECRAFT_ASSETS_INDEX;
+import static com.nerv.launcher.path.UrlManagerKt.URL_MINECRAFT_ASSETS_INDEX;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -31,7 +31,7 @@ import java.io.File
 /**
  * 一个待下载文件的完整描述
  * 候选源、目标位置与校验方式
- * 批量执行交给 [BatchDownloader]，单个文件也可以通过 [com.movtery.zalithlauncher.game.download.engine.DownloadEngine] 直接驱动
+ * 批量执行交给 [BatchDownloader]，单个文件也可以通过 [com.nerv.launcher.game.download.engine.DownloadEngine] 直接驱动
  */
 class DownloadTask(
     val urls: List<String>,

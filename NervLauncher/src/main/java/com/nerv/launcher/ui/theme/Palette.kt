@@ -35,7 +35,7 @@ fun onBackgroundColor(): Color = MaterialTheme.colorScheme.onSurfaceVariant
 /**
  * 卡片背景颜色
  * [androidx.compose.material3.Card]
- * [com.movtery.zalithlauncher.ui.components.BackgroundCard]
+ * [com.nerv.launcher.ui.components.BackgroundCard]
  * [androidx.compose.ui.window.Dialog]
  * @param influencedByBackground 是否受背景内容影响，更改自身不透明度
  */

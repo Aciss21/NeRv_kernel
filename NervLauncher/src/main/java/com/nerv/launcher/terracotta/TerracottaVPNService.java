@@ -18,7 +18,7 @@
 
 package com.nerv.launcher.terracotta;
 
-import static com.movtery.zalithlauncher.notification._NotificationIDKt.NOTIFICATION_ID_VPN_REQUEST_CODE;
+import static com.nerv.launcher.notification._NotificationIDKt.NOTIFICATION_ID_VPN_REQUEST_CODE;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;

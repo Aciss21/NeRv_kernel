@@ -30,8 +30,8 @@ import android.view.ViewParent;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.FrameLayout;
 
-import com.movtery.zalithlauncher.game.sdl.SdlBridge;
-import com.movtery.zalithlauncher.ui.control.input.TouchCharInput;
+import com.nerv.launcher.game.sdl.SdlBridge;
+import com.nerv.launcher.ui.control.input.TouchCharInput;
 
 /**
  * SDL 侧软键盘的显式控制器
